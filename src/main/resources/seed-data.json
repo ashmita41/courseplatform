@@ -1,0 +1,144 @@
+{
+  "courses": [
+    {
+      "id": "physics-101",
+      "title": "Introduction to Physics",
+      "description": "Fundamental concepts of motion, forces, and energy.",
+      "topics": [
+        {
+          "id": "kinematics",
+          "title": "Kinematics",
+          "subtopics": [
+            {
+              "id": "speed",
+              "title": "Speed",
+              "content": "# Speed\n\nSpeed is the distance travelled per unit time.\n\nIt is a scalar quantity, meaning it has magnitude but no direction.\n\n## Formula\n\n```\nSpeed = Distance / Time\n```\n\n## Units\n\n- meters per second (m/s)\n- kilometers per hour (km/h)\n- miles per hour (mph)\n\n## Example\n\nIf a car travels 100 km in 2 hours, its speed is:\n\n```\nSpeed = 100 km / 2 h = 50 km/h\n```"
+            },
+            {
+              "id": "velocity",
+              "title": "Velocity",
+              "content": "# Velocity\n\nVelocity is the rate of change of displacement. Unlike speed, velocity is a vector quantity.\n\n## Key Points\n\n- Velocity has both magnitude and direction\n- Velocity can be positive or negative\n- Average velocity = Displacement / Time\n\n## Difference from Speed\n\nWhile speed is always positive, velocity can be negative if an object moves in the opposite direction to the reference point."
+            },
+            {
+              "id": "acceleration",
+              "title": "Acceleration",
+              "content": "# Acceleration\n\nAcceleration is the rate of change of velocity.\n\n## Formula\n\n```\nAcceleration = Change in Velocity / Time\na = (v - u) / t\n```\n\nWhere:\n- a = acceleration\n- v = final velocity\n- u = initial velocity\n- t = time\n\n## Units\n\nAcceleration is measured in meters per second squared (m/s²)."
+            }
+          ]
+        },
+        {
+          "id": "dynamics",
+          "title": "Dynamics",
+          "subtopics": [
+            {
+              "id": "newtons-first-law",
+              "title": "Newton's First Law",
+              "content": "# Newton's First Law of Motion\n\nAn object at rest stays at rest, and an object in motion stays in motion with the same speed and direction unless acted upon by an unbalanced force.\n\n## Also Known As\n\nThe Law of Inertia\n\n## Real-World Examples\n\n- A book on a table remains at rest\n- A hockey puck sliding on ice continues moving\n- Passengers lurch forward when a car brakes suddenly"
+            },
+            {
+              "id": "newtons-second-law",
+              "title": "Newton's Second Law",
+              "content": "# Newton's Second Law of Motion\n\nThe acceleration of an object depends on the mass of the object and the force applied.\n\n## Formula\n\n```\nF = ma\n```\n\nWhere:\n- F = force (Newtons)\n- m = mass (kg)\n- a = acceleration (m/s²)\n\n## Key Insight\n\nThe greater the force, the greater the acceleration. The greater the mass, the smaller the acceleration for the same force."
+            },
+            {
+              "id": "newtons-third-law",
+              "title": "Newton's Third Law",
+              "content": "# Newton's Third Law of Motion\n\nFor every action, there is an equal and opposite reaction.\n\n## Examples\n\n- When you push against a wall, the wall pushes back with equal force\n- Rockets propel forward by expelling gas backward\n- When swimming, you push water backward and move forward"
+            }
+          ]
+        },
+        {
+          "id": "work-energy",
+          "title": "Work and Energy",
+          "subtopics": [
+            {
+              "id": "work",
+              "title": "Work",
+              "content": "# Work\n\nWork is done when a force causes displacement.\n\n## Formula\n\n```\nWork = Force × Displacement × cos(θ)\nW = F × d × cos(θ)\n```\n\n## Units\n\nWork is measured in Joules (J).\n\n## Key Points\n\n- No work is done if there is no displacement\n- Maximum work when force and displacement are in the same direction"
+            },
+            {
+              "id": "kinetic-energy",
+              "title": "Kinetic Energy",
+              "content": "# Kinetic Energy\n\nKinetic energy is the energy possessed by an object due to its motion.\n\n## Formula\n\n```\nKE = (1/2) × m × v²\n```\n\nWhere:\n- KE = kinetic energy (Joules)\n- m = mass (kg)\n- v = velocity (m/s)\n\n## Important Note\n\nKinetic energy depends on the mass and the square of the velocity. Doubling velocity quadruples kinetic energy!"
+            },
+            {
+              "id": "potential-energy",
+              "title": "Potential Energy",
+              "content": "# Potential Energy\n\nPotential energy is stored energy due to an object's position or configuration.\n\n## Gravitational Potential Energy\n\n```\nPE = mgh\n```\n\nWhere:\n- PE = potential energy (Joules)\n- m = mass (kg)\n- g = gravitational acceleration (9.8 m/s²)\n- h = height (m)\n\n## Conservation of Energy\n\nTotal mechanical energy (KE + PE) remains constant in the absence of friction."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-101",
+      "title": "Basic Mathematics for Problem Solving",
+      "description": "Core mathematical concepts used in science and everyday problem solving.",
+      "topics": [
+        {
+          "id": "algebra",
+          "title": "Algebra Fundamentals",
+          "subtopics": [
+            {
+              "id": "variables",
+              "title": "Variables and Expressions",
+              "content": "# Variables and Expressions\n\nA variable is a symbol (usually a letter) that represents an unknown value.\n\n## Algebraic Expressions\n\nAn algebraic expression combines variables, numbers, and operations.\n\n### Examples\n\n- `3x + 5`\n- `2y - 7`\n- `x² + 4x + 4`\n\n## Evaluating Expressions\n\nTo evaluate an expression, substitute the variable with a number and calculate."
+            },
+            {
+              "id": "equations",
+              "title": "Solving Linear Equations",
+              "content": "# Solving Linear Equations\n\nA linear equation is an equation where the highest power of the variable is 1.\n\n## Standard Form\n\n```\nax + b = c\n```\n\n## Steps to Solve\n\n1. Isolate the variable term\n2. Divide by the coefficient\n\n### Example\n\nSolve: `2x + 6 = 14`\n\n```\n2x = 14 - 6\n2x = 8\nx = 4\n```"
+            },
+            {
+              "id": "inequalities",
+              "title": "Inequalities",
+              "content": "# Inequalities\n\nInequalities show the relationship between two expressions that are not equal.\n\n## Symbols\n\n- `>` greater than\n- `<` less than\n- `≥` greater than or equal to\n- `≤` less than or equal to\n\n## Solving Inequalities\n\nFollow the same steps as equations, but reverse the inequality when multiplying or dividing by a negative number."
+            }
+          ]
+        },
+        {
+          "id": "geometry",
+          "title": "Basic Geometry",
+          "subtopics": [
+            {
+              "id": "area",
+              "title": "Area of Shapes",
+              "content": "# Area of Shapes\n\nArea measures the space inside a 2D shape.\n\n## Common Formulas\n\n### Rectangle\n```\nArea = length × width\n```\n\n### Triangle\n```\nArea = (1/2) × base × height\n```\n\n### Circle\n```\nArea = πr²\n```\n\nWhere r is the radius."
+            },
+            {
+              "id": "perimeter",
+              "title": "Perimeter",
+              "content": "# Perimeter\n\nPerimeter is the distance around a shape.\n\n## Formulas\n\n### Rectangle\n```\nPerimeter = 2(length + width)\n```\n\n### Square\n```\nPerimeter = 4 × side\n```\n\n### Circle (Circumference)\n```\nCircumference = 2πr\n```"
+            },
+            {
+              "id": "pythagorean",
+              "title": "Pythagorean Theorem",
+              "content": "# Pythagorean Theorem\n\nIn a right triangle, the square of the hypotenuse equals the sum of squares of the other two sides.\n\n## Formula\n\n```\na² + b² = c²\n```\n\nWhere:\n- c = hypotenuse (longest side)\n- a, b = other two sides\n\n## Example\n\nIf a = 3 and b = 4, then:\n```\nc² = 3² + 4² = 9 + 16 = 25\nc = 5\n```"
+            }
+          ]
+        },
+        {
+          "id": "functions",
+          "title": "Introduction to Functions",
+          "subtopics": [
+            {
+              "id": "function-notation",
+              "title": "Function Notation",
+              "content": "# Function Notation\n\nA function relates an input to an output.\n\n## Notation\n\n```\nf(x) = expression\n```\n\n## Example\n\nIf `f(x) = 2x + 3`, then:\n- `f(1) = 2(1) + 3 = 5`\n- `f(5) = 2(5) + 3 = 13`\n\n## Domain and Range\n\n- **Domain**: All possible input values (x)\n- **Range**: All possible output values (y)"
+            },
+            {
+              "id": "linear-functions",
+              "title": "Linear Functions",
+              "content": "# Linear Functions\n\nA linear function produces a straight line when graphed.\n\n## Slope-Intercept Form\n\n```\ny = mx + b\n```\n\nWhere:\n- m = slope (rate of change)\n- b = y-intercept (where line crosses y-axis)\n\n## Slope\n\n```\nSlope = Rise / Run = (y₂ - y₁) / (x₂ - x₁)\n```"
+            },
+            {
+              "id": "rate-of-change",
+              "title": "Rate of Change",
+              "content": "# Rate of Change\n\nRate of change describes how one quantity changes in relation to another.\n\n## Average Rate of Change\n\n```\nAverage Rate = Change in Output / Change in Input\n```\n\n## Real-World Applications\n\n- Speed (distance per time)\n- Price changes (dollars per item)\n- Population growth (people per year)\n\n## In Functions\n\nFor a linear function, the rate of change is constant and equals the slope."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
